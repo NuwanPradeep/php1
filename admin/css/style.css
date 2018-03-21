@@ -1,0 +1,251 @@
+#manage-customers #tblCustomers tbody tr{
+    cursor: pointer;
+}
+
+#manage-customers #tblCustomers td:first-child{
+    width: 22px;
+}
+
+#manage-customers #tblCustomers td:first-child input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#manage-customers #tblCustomers tr td:nth-child(2), #manage-customers #tblCustomers tr th:nth-child(2){
+    text-align: center;
+    width: 150px;
+}
+
+#manage-customers #tblCustomers td:last-child{
+    width: 25px;
+    text-align: center;
+}
+
+#tblCustomers{
+    color:black;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 4px 15px 0 !important;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+
+input[type="file"] {
+    display: block;
+}
+
+/*=======================================================================*/
+/*.sqs-audio-embed {*/
+    /*visibility: hidden;*/
+/*}*/
+/*=======================================================================*/
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.body{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    z-index: 0;
+}
+
+#body_main{
+   /*// background-image: url("images/wallpaper1.jpg")!important;*/
+}
+
+.grad{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.header{
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(42% - 255px);
+    z-index: 2;
+}
+
+.header div{
+    float: left;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.header div span{
+    color: #5379fa !important;
+}
+
+.login{
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.login input[type=text]{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+.login input[type=password]{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=button]{
+    width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+    opacity: 0.8;
+}
+
+.login input[type=button]:active{
+    opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);
+}
+
+.button {
+    border-radius: 4px;
+    background-color: rgba(125, 108, 82, 0.84);
+    border: none;
+    color: #ead29e;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 5;
+    right: 0;
+}
+/*==============================================================*/
+
+.navbar-inverse .navbar-brand {
+    color: rgba(0, 91, 221, 0.87)!important;
+}
+
+/*================================================================*/
+
+.lblCus{
+    color: #0056b3;
+    font-size: 16px;
+    font-family: Consolas;
+}
+.form-control {
+    display: block;
+    width: 50%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 10px;
+    line-height: 1.42857143;
+    color: #1a1c53;
+    background-color: #f1e8e8;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#new-customer{
+    min-height: 36px;
+    padding-right: 10px;
+    padding-left: 35px;
+}
+

@@ -1,0 +1,11 @@
+.navbar-brand{
+    color: blueviolet !important;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+/*=============animation===========================*/
+
